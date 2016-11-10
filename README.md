@@ -245,6 +245,7 @@ namespace thruthTable
 6. Exclusive OR
 
 ![](https://raw.githubusercontent.com/apiradee39/LAB-07/1aed30337644cf65cdce636dc6d1b94137eba744/7.9.png)
+
 ```
 
 
@@ -415,5 +416,6 @@ The sine of       6.00 = -0.279415         *
 3.	y = tan(x)
 
 ![](https://raw.githubusercontent.com/apiradee39/LAB-07/1aed30337644cf65cdce636dc6d1b94137eba744/7.14.png)
+
 ```
 	
