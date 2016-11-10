@@ -21,6 +21,17 @@ Do	| |
 ladkrabang	| |			
 Student ID	| |			
 
+
+Hello! ใช่ไม่ได้  ผิดหลักเพราะมี  !
+w*h    ใช่ไม่ได้  ผิดหลักเพราะมี *
+time   ใช่ไม่ได้  ผิดหลักเพราะเป็นคำสงวน
+do     ใช่ได้
+Do     ใช่ไม่ได้  ผิดหลักเพราะเป็นคำสงวน
+21November ใช่ไม่ได้ ผิดหลักเพราะมีตัวเลขนำหน้า
+ladkrabang ใช่ได้ 
+Student ID ใช่ได้
+
+
 ##2). ชนิดข้อมูลภายในภาษา C# 
   2.1).	Property ของชนิดข้อมูล
 ในภาษา C# มีชนิดข้อมูลต่างๆ ได้แก่ ```byte```, ```char```, ```bool```, ```sbyte```, ```short```, ```ushort```, ```int``` , ```uint```, ```float```, ```double```, ```decimal```, ```long```, ```ulong``` โดยแต่ละชนิด มีคุณสมบัติที่สำคัญได้แก่ ขนาด (เป็นไบต์) ค่าต่ำสุด ค่าสูงสุด ที่เก็บในตัวแปรชนิดนั้นๆ ได้ ซึ่งมีฟังก์ชันในภาษา C# ที่ช่วยให้เราทราบคุณสมบัติเหล่านั้น ได้แก่คำสั่ง ```sizeof()```,  ```MinValue()``` และ ```MaxValue()```
@@ -113,11 +124,19 @@ namespace RandomNumber
 
 1. สร้างตัวแปร Random โดยการมีสุ่มเลข 1 หลัก (0 – 9 )
 
+![](https://raw.githubusercontent.com/apiradee39/LAB-07/1aed30337644cf65cdce636dc6d1b94137eba744/7.1.png)
+
 1. สร้างตัวแปรชนิด integer สำหรับรับค่าจากผู้ใช้
+
+![](https://raw.githubusercontent.com/apiradee39/LAB-07/1aed30337644cf65cdce636dc6d1b94137eba744/7.2.png
+
+)
 
 1. สร้างตัวแปร boolean โดยเก็บค่าที่ได้จากการเปรียบเทียบตัวเลขในข้อ 1 และ 2
 
 1. ให้พิมพ์ค่าตัวแปร boolean ในข้อ 3 ออกทางหน้าจอ
+
+![](https://raw.githubusercontent.com/apiradee39/LAB-07/1aed30337644cf65cdce636dc6d1b94137eba744/7.3.png)
 
 
 ##การเขียนโปรแกรมด้วยตัวดำเนินการทางตรรกะ
@@ -204,11 +223,28 @@ namespace thruthTable
 ให้เขียนโปรแกรมเพื่อสร้างตารางความจริงของลอจิกดังต่อไปนี้
 ```
 1. AND
+
+![](https://raw.githubusercontent.com/apiradee39/LAB-07/1aed30337644cf65cdce636dc6d1b94137eba744/7.4.png)
+
 2. OR
+
+![](https://raw.githubusercontent.com/apiradee39/LAB-07/1aed30337644cf65cdce636dc6d1b94137eba744/7.5.png)
+
 3. NOT
+
+![](https://raw.githubusercontent.com/apiradee39/LAB-07/1aed30337644cf65cdce636dc6d1b94137eba744/7.6.png)
+
 4. NAND
+
+![](https://raw.githubusercontent.com/apiradee39/LAB-07/1aed30337644cf65cdce636dc6d1b94137eba744/7.7.png)
+
 5. NOR
+
+![](https://raw.githubusercontent.com/apiradee39/LAB-07/1aed30337644cf65cdce636dc6d1b94137eba744/7.8.png)
+
 6. Exclusive OR
+
+![](https://raw.githubusercontent.com/apiradee39/LAB-07/1aed30337644cf65cdce636dc6d1b94137eba744/7.9.png)
 ```
 
 
@@ -252,6 +288,8 @@ public class intergerTest
 9.	y%8
 10.	100*x+y%2-a
 ```
+![](https://raw.githubusercontent.com/apiradee39/LAB-07/1aed30337644cf65cdce636dc6d1b94137eba744/7.10.png)
+
 ##2.2.3. ชนิดข้อมูลเลขทศนิยม (Floating Point and Decimal Types)
 ตัวเลขจำนวนทศนิยม มักจะใช้ในการคำนวณทางวิทยาศาสตร์ เนื่องจากค่าในวิทยาศาสตร์ต้องการความละเอียดสูง หรือมีค่าสูงมากกว่าที่เลขจำนวนเต็มจะเก็บได้
 
@@ -307,7 +345,10 @@ Mars |	227,940,000 km
 Jupiter |	778,330,000 km		
 Uranus |	2,873,550,000 km		
 Neptune |	4,501,000,000 km		
-Pluto |	5,945,900,000 km		
+Pluto |	5,945,900,000 km	
+
+
+![](https://raw.githubusercontent.com/apiradee39/LAB-07/1aed30337644cf65cdce636dc6d1b94137eba744/7.11.png)
 
 ##คลาส Math 
 ในภาษา C# มีคลาสที่เป็นตัวช่วยคำนวณทางคณิตศาสตร์ ที่ช่วยให้เราสามารถคำนวณฟังก์ชันพื้นฐานได้ อย่างรวดเร็ว ไม่ต้องพัฒนาโปรแกรมเพิ่มเติมด้วยเอง นั่นคือคลาส Math  ฟังก์ชันทางคณิตศาสตร์ที่ใช้บ่อยๆ สามารถดูรายละเอียดทั้งหมดได้จาก 
@@ -364,7 +405,15 @@ The sine of       6.00 = -0.279415         *
 จากโปรแกรมตัวอย่าง ให้ดัดแปลงโปรแกรมเพื่อวาดรูปคลื่นดังต่อไปนี้
 ```
 1.	y = x2
+
+![](https://raw.githubusercontent.com/apiradee39/LAB-07/1aed30337644cf65cdce636dc6d1b94137eba744/7.12.png)
+
 2.	y = cos(x)
+
+![](https://raw.githubusercontent.com/apiradee39/LAB-07/1aed30337644cf65cdce636dc6d1b94137eba744/7.13.png)
+
 3.	y = tan(x)
+
+![](https://raw.githubusercontent.com/apiradee39/LAB-07/1aed30337644cf65cdce636dc6d1b94137eba744/7.14.png)
 ```
 	
